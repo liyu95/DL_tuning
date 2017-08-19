@@ -58,6 +58,7 @@ Not very familiar with the evolution, only know the most advanced ones
 # Code in Tensorflow
 I would thank Tensorflow team to make the software open source, but I have to say the documentation, expecially the API, is not very clear and for each command I would have to search the Internet to see how to use it. I would appreciate if the documentation of Tensorflow would be something like the documentation of Numpy or Scipy, which would have several examples for each operation.
 Anyway, the current documentation is much better than that of Tensorflow v0.7. You can not image how crude it is. 
+
 Weight Initailization
 ```
 def weight_variable(shape):
