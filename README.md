@@ -21,6 +21,8 @@ Deep Learning model tuning experience. Some of them are summarized from Andrew N
 1. Orthogonalization. When trying to reduce bias, do not affect variance. When trying to reduce variance, do not affect bias.
 2. Ways to reduce bias: bigger network, alternative optimizer (related hyperparameter, like learning rate), different network structure.
 3. Ways to reduce variance: more train data, weight decay, dropout.
+4. Random search instead of grid search.
+5. Crude and refine search.
 
 # Hyperparameters List:
 Personally, I think the importance would go down as the list goes down.
