@@ -112,3 +112,11 @@ with tf.control_dependencies(update_ops):
     # Ensures that we execute the update_ops before performing the train_step
     train_step = tf.train.GradientDescentOptimizer(0.01).minimize(loss)
 ```
+#Problem related to tensorflow
+1. Tensorflow would occupy all the gpus.
+Sometimes tensorflow would occupy all the gpus in the system, while only use one. To prevent that happens, use:
+```
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="0"
+```
+to make only one gpu is visible.
